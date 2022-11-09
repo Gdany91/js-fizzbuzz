@@ -12,13 +12,13 @@ Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot f
 
 for (let i = 1; i <= 100; i++) {
   
-//se il numero è  un multiplo sia di 5 che di 3 stampo fizzbuzz
+  //se il numero è  un multiplo sia di 5 che di 3 stampo fizzbuzz
 
   if (i % 3 === 0 && i % 5 === 0) {
     console.log("fizzbuzz");
 
   }
- //se il numero è solo un multiplo di 3 stampo fizz
+  //se il numero è solo un multiplo di 3 stampo fizz
 
   else if (i % 3 === 0 && i % 5 !== 0) {
     console.log("fizz");
